@@ -1,0 +1,18 @@
+package Day1;
+
+public class NattuSpeaker extends Speaker {
+
+    public static void main(String[] args) {
+        NattuSpeaker nt = new NattuSpeaker();
+        nt.pause();
+        nt.mute();
+        nt.powerOff();
+        nt.powerOn();
+        nt.volumeDown();
+        nt.volumeUp();
+        nt.play();
+
+    }
+
+
+}
