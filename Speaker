@@ -1,0 +1,33 @@
+package Day1;
+
+public class Speaker implements Volume, Power, Button {
+
+
+    public void play() {
+        System.out.println("Audio play");
+    }
+
+    public void pause() {
+        System.out.println("Audio pause");
+    }
+
+    public void powerOn() {
+        System.out.println("Power ON");
+    }
+
+    public void powerOff() {
+        System.out.println("Power OFF");
+    }
+
+    public void volumeUp() {
+        System.out.println("Volume Increased");
+    }
+
+    public void volumeDown() {
+        System.out.println("Volume Decreased");
+    }
+
+    public void mute() {
+        System.out.println("Mute");
+    }
+}
