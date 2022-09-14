@@ -1,0 +1,9 @@
+package Day1;
+
+public interface Power {
+
+    public void powerOn();
+
+    public void powerOff();
+
+}
